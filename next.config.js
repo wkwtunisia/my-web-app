@@ -5,10 +5,10 @@ const nextConfig = {
   },
   output: 'standalone',
   reactStrictMode: true,
-  swcMinify: true,
-  // Pour Next.js 15
+  // swcMinify est maintenant activé par défaut dans Next.js 15
   experimental: {
-    // Configuration spécifique à Next.js 15
+    // Configuration pour Cloudflare
+    serverActions: true,
   },
 };
 
