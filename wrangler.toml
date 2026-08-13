@@ -2,14 +2,13 @@ name = "my-web-app"
 compatibility_date = "2024-11-01"
 compatibility_flags = ["nodejs_compat"]
 
-# Pour Next.js, on utilise le dossier .next comme assets
-[assets]
-directory = ".next/static"
-binding = "ASSETS"
+# Configuration pour le build
+[build]
+command = "npm run build"
 
-# Configuration pour les pages dynamiques
+# Configuration pour l'environnement de production
 [env.production]
 routes = ["*"]
 
-# Désactiver les logs trop verbaux
+# Désactiver les logs
 logpush = false

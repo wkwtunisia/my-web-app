@@ -3,13 +3,14 @@ const nextConfig = {
   images: {
     domains: ['images.unsplash.com', 'firebasestorage.googleapis.com', 'lh3.googleusercontent.com'],
   },
-  output: 'standalone',
   reactStrictMode: true,
-  // swcMinify est maintenant activé par défaut dans Next.js 15
+  // Désactiver les fonctionnalités expérimentales
   experimental: {
-    // Configuration pour Cloudflare
     serverActions: true,
   },
+  // Configuration pour Cloudflare
+  output: 'standalone',
+  swcMinify: false, // Désactiver swcMinify pour Cloudflare
 };
 
 module.exports = nextConfig;
