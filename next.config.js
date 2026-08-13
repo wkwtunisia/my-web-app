@@ -6,6 +6,10 @@ const nextConfig = {
   output: 'standalone',
   reactStrictMode: true,
   swcMinify: true,
+  // Pour Next.js 15
+  experimental: {
+    // Configuration spécifique à Next.js 15
+  },
 };
 
 module.exports = nextConfig;
