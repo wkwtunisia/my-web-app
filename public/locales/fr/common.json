@@ -1,0 +1,88 @@
+{
+  "app": {
+    "name": "MonApp",
+    "title": "Apprenez, Quiz, Lisez"
+  },
+  "nav": {
+    "home": "Accueil",
+    "stores": "Magasins",
+    "quizzes": "Quiz",
+    "stories": "Histoires",
+    "dashboard": "Tableau de bord",
+    "admin": "Admin",
+    "profile": "Profil",
+    "signIn": "Se connecter",
+    "signOut": "Se déconnecter",
+    "signUp": "S'inscrire"
+  },
+  "auth": {
+    "welcome": "Bienvenue",
+    "signIn": "Connectez-vous",
+    "signOut": "Déconnexion",
+    "email": "Email",
+    "password": "Mot de passe",
+    "forgotPassword": "Mot de passe oublié?",
+    "noAccount": "Pas de compte? Inscrivez-vous",
+    "haveAccount": "Déjà un compte? Connectez-vous"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "create": "Créer",
+    "search": "Rechercher",
+    "viewAll": "Voir tout",
+    "noResults": "Aucun résultat",
+    "active": "Actif",
+    "inactive": "Inactif"
+  },
+  "stores": {
+    "title": "🛍️ Magasins",
+    "buyNow": "Acheter maintenant",
+    "price": "Prix",
+    "category": "Catégorie",
+    "available": "Disponible",
+    "noStores": "Aucun magasin disponible pour le moment."
+  },
+  "quizzes": {
+    "title": "❓ Quiz",
+    "play": "Jouer",
+    "difficulty": "Difficulté",
+    "easy": "Facile",
+    "medium": "Moyen",
+    "hard": "Difficile",
+    "timeLimit": "Temps limité",
+    "passingScore": "Score de réussite",
+    "questions": "questions",
+    "noQuizzes": "Aucun quiz disponible pour le moment."
+  },
+  "stories": {
+    "title": "📖 Histoires",
+    "read": "Lire",
+    "author": "Auteur",
+    "readTime": "min de lecture",
+    "premium": "Premium",
+    "noStories": "Aucune histoire disponible pour le moment."
+  },
+  "profile": {
+    "title": "Mon Profil",
+    "email": "Email",
+    "subscription": "Abonnement",
+    "free": "Gratuit",
+    "basic": "Basique",
+    "premium": "Premium",
+    "vip": "VIP",
+    "userId": "ID Utilisateur"
+  },
+  "theme": {
+    "title": "Thème",
+    "light": "Clair",
+    "dark": "Sombre",
+    "system": "Système",
+    "colors": "Couleurs"
+  }
+}

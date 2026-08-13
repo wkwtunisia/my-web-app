@@ -1,0 +1,88 @@
+{
+  "app": {
+    "name": "تطبيقي",
+    "title": "تعلم، اختبر، اقرأ"
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "stores": "المتاجر",
+    "quizzes": "الاختبارات",
+    "stories": "القصص",
+    "dashboard": "لوحة التحكم",
+    "admin": "المشرف",
+    "profile": "الملف الشخصي",
+    "signIn": "تسجيل الدخول",
+    "signOut": "تسجيل الخروج",
+    "signUp": "إنشاء حساب"
+  },
+  "auth": {
+    "welcome": "مرحباً",
+    "signIn": "تسجيل الدخول",
+    "signOut": "تسجيل الخروج",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "forgotPassword": "نسيت كلمة المرور؟",
+    "noAccount": "ليس لديك حساب؟ سجل الآن",
+    "haveAccount": "لديك حساب؟ سجل الدخول"
+  },
+  "common": {
+    "loading": "جاري التحميل...",
+    "error": "خطأ",
+    "success": "نجاح",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "create": "إنشاء",
+    "search": "بحث",
+    "viewAll": "عرض الكل",
+    "noResults": "لا توجد نتائج",
+    "active": "نشط",
+    "inactive": "غير نشط"
+  },
+  "stores": {
+    "title": "🛍️ المتاجر",
+    "buyNow": "اشتر الآن",
+    "price": "السعر",
+    "category": "التصنيف",
+    "available": "متوفر",
+    "noStores": "لا توجد متاجر متاحة حالياً."
+  },
+  "quizzes": {
+    "title": "❓ الاختبارات",
+    "play": "ابدأ الاختبار",
+    "difficulty": "الصعوبة",
+    "easy": "سهل",
+    "medium": "متوسط",
+    "hard": "صعب",
+    "timeLimit": "الوقت المحدد",
+    "passingScore": "درجة النجاح",
+    "questions": "أسئلة",
+    "noQuizzes": "لا توجد اختبارات متاحة حالياً."
+  },
+  "stories": {
+    "title": "📖 القصص",
+    "read": "اقرأ",
+    "author": "الكاتب",
+    "readTime": "دقائق قراءة",
+    "premium": "مميز",
+    "noStories": "لا توجد قصص متاحة حالياً."
+  },
+  "profile": {
+    "title": "ملفي الشخصي",
+    "email": "البريد الإلكتروني",
+    "subscription": "الاشتراك",
+    "free": "مجاني",
+    "basic": "أساسي",
+    "premium": "مميز",
+    "vip": "VIP",
+    "userId": "معرف المستخدم"
+  },
+  "theme": {
+    "title": "المظهر",
+    "light": "فاتح",
+    "dark": "داكن",
+    "system": "النظام",
+    "colors": "الألوان"
+  }
+}

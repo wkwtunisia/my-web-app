@@ -1,0 +1,88 @@
+{
+  "app": {
+    "name": "MyApp",
+    "title": "Learn, Quiz, Read"
+  },
+  "nav": {
+    "home": "Home",
+    "stores": "Stores",
+    "quizzes": "Quizzes",
+    "stories": "Stories",
+    "dashboard": "Dashboard",
+    "admin": "Admin",
+    "profile": "Profile",
+    "signIn": "Sign In",
+    "signOut": "Sign Out",
+    "signUp": "Sign Up"
+  },
+  "auth": {
+    "welcome": "Welcome",
+    "signIn": "Sign In",
+    "signOut": "Sign Out",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot Password?",
+    "noAccount": "Don't have an account? Sign Up",
+    "haveAccount": "Already have an account? Sign In"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "search": "Search",
+    "viewAll": "View All",
+    "noResults": "No results",
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "stores": {
+    "title": "🛍️ Stores",
+    "buyNow": "Buy Now",
+    "price": "Price",
+    "category": "Category",
+    "available": "Available",
+    "noStores": "No stores available yet."
+  },
+  "quizzes": {
+    "title": "❓ Quizzes",
+    "play": "Play",
+    "difficulty": "Difficulty",
+    "easy": "Easy",
+    "medium": "Medium",
+    "hard": "Hard",
+    "timeLimit": "Time Limit",
+    "passingScore": "Passing Score",
+    "questions": "questions",
+    "noQuizzes": "No quizzes available yet."
+  },
+  "stories": {
+    "title": "📖 Stories",
+    "read": "Read",
+    "author": "Author",
+    "readTime": "min read",
+    "premium": "Premium",
+    "noStories": "No stories available yet."
+  },
+  "profile": {
+    "title": "My Profile",
+    "email": "Email",
+    "subscription": "Subscription",
+    "free": "Free",
+    "basic": "Basic",
+    "premium": "Premium",
+    "vip": "VIP",
+    "userId": "User ID"
+  },
+  "theme": {
+    "title": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "colors": "Colors"
+  }
+}
