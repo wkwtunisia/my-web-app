@@ -27,7 +27,6 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
     document.documentElement.dir = savedLang === 'ar' ? 'rtl' : 'ltr';
     document.documentElement.lang = savedLang;
     
-    // Load translations
     loadTranslations(savedLang);
   }, []);
 
@@ -73,7 +72,6 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
       console.log(`✅ Translations loaded for ${lang}:`, Object.keys(merged));
     } catch (error) {
       console.error(`Error loading translations for ${lang}:`, error);
-      // Fallback to empty translations
       setTranslations({});
       setLoaded(true);
     }
@@ -95,7 +93,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
     
     try {
       const keys = key.split('.');
-      let value = translations;
+      let value: any = translations;
       
       for (const k of keys) {
         if (value && value[k] !== undefined) {
@@ -105,7 +103,15 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
         }
       }
       
-      return value || key;
+      // Ensure we return a string, not an object
+      if (typeof value === 'string') {
+        return value;
+      } else if (typeof value === 'object' && value !== null) {
+        // If it's an object, try to get a string representation
+        return JSON.stringify(value);
+      } else {
+        return key;
+      }
     } catch (e) {
       return key;
     }
